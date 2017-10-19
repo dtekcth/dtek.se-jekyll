@@ -1,0 +1,561 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"getEl",
+				"getElementsByTagName"
+			],
+			[
+				"get",
+				"getWidth"
+			],
+			[
+				"ori",
+				"orientation"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"sub",
+				"\\subsection*{}"
+			],
+			[
+				"su",
+				"\\subsection*{}"
+			],
+			[
+				"f",
+				"f_post"
+			],
+			[
+				"tha",
+				"theta_r"
+			],
+			[
+				"the",
+				"theta_r"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 93.0,
+		"last_filter": "json",
+		"selected_items":
+		[
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"xml",
+				"Indent XML"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"xm",
+				"Set Syntax: XML"
+			],
+			[
+				"jsh",
+				"JSHint"
+			],
+			[
+				"jshint",
+				"JSHint"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"jshit",
+				"JSHint"
+			],
+			[
+				"settings",
+				"JSHint: Set Linting Preferences"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"jshi",
+				"JSHint"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"makefi",
+				"Set Syntax: Makefile"
+			],
+			[
+				"makefil",
+				"Set Syntax: Makefile"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"set syntax xm",
+				"Set Syntax: XML"
+			],
+			[
+				"pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"package con install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"21763263 / 1024 / 1024",
+			"21763263 / 1024",
+			"1+1",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/emil/dev/dtek.se",
+		"/home/emil/dev/dtek.se/_layouts",
+		"/home/emil/dev/dtek.se/_posts",
+		"/home/emil/dev/dtek.se/_sass",
+		"/home/emil/dev/dtek.se/_sidebar",
+		"/home/emil/dev/dtek.se/assets",
+		"/home/emil/dev/dtek.se/images"
+	],
+	"file_history":
+	[
+		"/home/emil/dev/dtek.se/assets/main.scss",
+		"/home/emil/dev/dtek.se/_data/advertisements.json",
+		"/home/emil/dev/dtek.se/_sidebar/2017-09-02-ericsson-advertisement.md",
+		"/home/emil/dev/dtek.se/_layouts/home.html",
+		"/home/emil/dev/dtek.se/_data",
+		"/home/emil/dev/dtek.se/_layouts/sidebar.html",
+		"/home/emil/dev/dtek.se/README.md",
+		"/home/emil/dev/dtek.se/_config.yml",
+		"/home/emil/dev/dtek.se/Gemfile",
+		"/home/emil/dev/dtek.se/dtek-se.sublime-project",
+		"/home/emil/dev/dtek.se/about.md",
+		"/home/emil/Small Mega/private/gamification.txt",
+		"/home/emil/dev/pan_temp/index.html",
+		"/run/media/emil/3633-3331/MISC/bluetooth/settings",
+		"/run/media/emil/3633-3331/MISC/system1.log",
+		"/run/media/emil/3633-3331/MISC/update.log",
+		"/home/emil/dev/pannellum/utils/multires/output/config.json",
+		"/home/emil/Desktop/animation.html",
+		"/home/emil/Downloads/saml-trace.json",
+		"/home/emil/Downloads/saml-trace-successful.json",
+		"/home/emil/dev/panorama/script.js",
+		"/home/emil/dumps/lanegarderoben/users.frm",
+		"/home/emil/dumps/lanegarderoben/loans.frm",
+		"/home/emil/dumps/lanegarderoben/items.frm",
+		"/run/user/1000/gvfs/sftp:host=dtek.se,port=222,user=emilhem/home/emilhem/passport-saml-example/app.js",
+		"/run/user/1000/gvfs/sftp:host=dtek.se,port=222,user=emilhem/home/emilhem/passport-saml-example/config/config.js",
+		"/home/emil/dev/upphittat.dtek.se/client/src/js/script.js",
+		"/home/emil/dev/upphittat.dtek.se/client/src/css/style.css",
+		"/home/emil/dev/upphittat.dtek.se/README.md",
+		"/home/emil/dev/upphittat.dtek.se/client/src/index.html",
+		"/home/emil/dev/upphittat.dtek.se/server/package.json",
+		"/home/emil/dev/upphittat.dtek.se/client/package.json",
+		"/home/emil/dev/upphittat.dtek.se/server/server.js",
+		"/home/emil/.config/sublime-text-3/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/home/emil/.config/sublime-text-3/Packages/JSHint Gutter/.jshintrc",
+		"/home/emil/software/rephrase-0.2/rephrase.c",
+		"/home/emil/software/rephrase-0.2/test-decrypt.sh",
+		"/home/emil/software/rephrase-0.2/regex.re",
+		"/home/emil/software/rephrase-0.2/pattern.txt",
+		"/home/emil/Desktop/emil-hemdal-se.pub",
+		"/home/emil/software/rephrase-0.2/decrypt-key.sh",
+		"/home/emil/Small Mega/private/att sortera/Till Daniel.txt",
+		"/home/emil/dev/digdes/README.md",
+		"/home/emil/dev/digdes/CONTRIBUTING.md",
+		"/home/emil/dev/digdes/js/i-haz-scriptz.js",
+		"/home/emil/dev/digdes/LICENSE.md",
+		"/home/emil/dev/digdes/index.html",
+		"/home/emil/dev/digdes/css/i-haz-style.css",
+		"/home/emil/dev/digdes/js/konva.min.js",
+		"/run/media/emil/Backup/Film/[ www.Torrenting.com ] - Takedown (2000)-DVDRIp Xvid-THC/READ this before playing the Movie.txt",
+		"/home/emil/dev/digdes/js/.jshintrc",
+		"/home/emil/dev/digdes/CODE_OF_CONDUCT.md",
+		"/home/emil/Downloads/basvrak/wikibasvrakse-20140131-history.xml",
+		"/home/emil/Small Mega/private/Scratch/scratch-block.svg",
+		"/home/emil/Small Mega/private/Scratch/when-flag-clicked-uncleaned.svg",
+		"/home/emil/dev/openDatDoor.py",
+		"/tmp/mozilla_emil0/client.c",
+		"/run/media/emil/fb04006d-c6e6-4b43-ad48-445ceef7d82e/home/alarm/.bashrc",
+		"/run/media/emil/fb04006d-c6e6-4b43-ad48-445ceef7d82e/home/alarm/.bash_profile",
+		"/run/media/emil/fb04006d-c6e6-4b43-ad48-445ceef7d82e/home/alarm/.bash_logout",
+		"/run/media/emil/fb04006d-c6e6-4b43-ad48-445ceef7d82e/etc/arch-release",
+		"/home/emil/Downloads/Assignment1.hs",
+		"/home/emil/Small Mega/private/studier/Chalmers/Fysik/Cheat-sheet.tex",
+		"/home/emil/Small Mega/private/studier/Chalmers/Datastruktur/Cheat-sheet.tex",
+		"/home/emil/dev/opengl-playground/init.c",
+		"/home/emil/dev/opengl-playground/README.md",
+		"/home/emil/.ssh/config",
+		"/home/emil/Small Mega/private/studier/Chalmers/Fysik/MasteringPhysics-python/35_16_2.py",
+		"/home/emil/Small Mega/private/studier/Chalmers/Fysik/MasteringPhysics-python/35_27.py",
+		"/home/emil/Small Mega/private/studier/Chalmers/Fysik/MasteringPhysics-python/15_55.py",
+		"/home/emil/Small Mega/private/studier/Chalmers/Fysik/MasteringPhysics-python/15_62.py",
+		"/home/emil/Small Mega/private/studier/Chalmers/Fysik/MasteringPhysics-python/33_12.py",
+		"/home/emil/Small Mega/private/studier/Chalmers/Fysik/MasteringPhysics-python/33_43.py",
+		"/home/emil/Small Mega/private/studier/Chalmers/Fysik/MasteringPhysics-python/35_3.py",
+		"/home/emil/Small Mega/private/studier/Chalmers/Fysik/MasteringPhysics-python/35_16.py",
+		"/home/emil/Small Mega/private/studier/Chalmers/Fysik/MasteringPhysics-python/35_54.py",
+		"/home/emil/Small Mega/private/studier/Chalmers/Fysik/MasteringPhysics-python/36_9.py",
+		"/home/emil/Small Mega/private/studier/Chalmers/Fysik/MasteringPhysics-python/36_16.py",
+		"/home/emil/Small Mega/private/studier/Chalmers/Fysik/MasteringPhysics-python/36_18.py",
+		"/home/emil/Small Mega/private/studier/Chalmers/Fysik/MasteringPhysics-python/36_56.py",
+		"/home/emil/dev/opengl-playground/src/glad.c",
+		"/home/emil/dev/opengl-playground/glad/glad.h",
+		"/home/emil/dev/dtekcth/dHack-website/README.md",
+		"/home/emil/Small Mega/private/studier/Chalmers/Fysik/Assignments2.tex",
+		"/home/emil/dev/dtekcth/dHack-website/client/.keep",
+		"/home/emil/dev/dtekcth/dHack-website/build-static.sh",
+		"/home/emil/dev/dtekcth/dHack-website/bower.json",
+		"/home/emil/dev/dtekcth/dHack-website/package.json",
+		"/home/emil/dev/dtekcth/dHack-website/server/run.js"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 108.0,
+		"where_history":
+		[
+			"/home/emil/dev/upphittat.dtek.se",
+			"/home/emil/dev/digdes"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"post",
+			"@chalmers.se",
+			"support",
+			"@chalmers.se",
+			"\"second\"",
+			"\"second\":",
+			"\"first\"",
+			"first",
+			"view2",
+			"m",
+			"p",
+			"P",
+			"p",
+			"chalmers",
+			"dtek",
+			"sw",
+			"chalmers",
+			"dtek",
+			"chalmers",
+			"Chalmers",
+			"chalmers",
+			"Chalmers",
+			"chalmers",
+			"Chalmers",
+			"chalmers",
+			"Chalmers",
+			"CHALMERS",
+			"chalmers",
+			"Chalmers",
+			"CHALMERS",
+			"chalmers",
+			"dtek",
+			"><",
+			"chalmers.se",
+			"chalmers",
+			"dtek",
+			"><",
+			"callback",
+			"resp",
+			"><",
+			"image",
+			"Width",
+			"width",
+			"Width",
+			"width",
+			"x",
+			"Math.round(",
+			"math",
+			"mouse.y",
+			"mouse.x",
+			"?\u0001",
+			"?",
+			"\"",
+			"text",
+			"games",
+			"gameArea",
+			"a",
+			"flipper",
+			"se",
+			"GPG",
+			"x",
+			"    x: (shape.getAttr('x') <= 0 ? 25 : Math.round((shape.getAttr('x') - size / 2) / size) * size + size / 2),\n ",
+			"+",
+			"50",
+			"stage",
+			"group",
+			"200",
+			"addStar",
+			"5",
+			"tween",
+			"tweeen",
+			"\"",
+			"ev",
+			"\"",
+			"(\"",
+			" ondragover=\"allowDrop(event)\"",
+			" ondrop=\"drop(event)\"",
+			"draggable",
+			"\"",
+			"id",
+			"This program",
+			"\\t",
+			").\n",
+			"><",
+			"</",
+			"isecureOpener",
+			"urlopen",
+			"pyotherside.send(",
+			"Hej",
+			"Nothing",
+			"Maybe",
+			"part",
+			"section",
+			"_",
+			"    ",
+			"            ",
+			"           ",
+			"          ",
+			"         ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"EmilHem",
+			"OpenGL Playground",
+			"Foobar",
+			"f_post",
+			"theta",
+			"theta_r",
+			"nm",
+			"r_2",
+			" * n_T",
+			"r_2",
+			"glass",
+			"Differnence",
+			"2",
+			"arbete",
+			"subparagraph",
+			"\\paragraph{",
+			"paragraph",
+			"\\subsubsection{",
+			"\\subsection{",
+			"subsection{",
+			"subsection",
+			"intern",
+			"#",
+			"General"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"externalIDP",
+			"example",
+			"externalIDP",
+			"example",
+			">\\n<",
+			"event",
+			">\\n<",
+			"\\n</"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "dtek-se.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 378.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,33 @@
+
+@charset "utf-8";
+
+$background-color: #FA6607 !default;
+$background-color-content: #EEEEEE !default;
+
+@import
+  "pure-min"
+;
+
+html, body {
+    background-color: $background-color;
+}
+
+.pure-g {
+    max-width: 980px;
+    margin: 0 auto;
+    background-color: $background-color-content;
+}
+
+img {
+    max-width: 100%;
+}
+
+.social-media-list, .contact-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.l-box {
+    padding: 1em;
+}

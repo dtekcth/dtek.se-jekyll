@@ -2,13 +2,14 @@
 layout: page
 title: Om Datateknologsektionen
 permalink: /about/
+wip: true
 ---
 
-Datateknologsektionen på Chalmers startades år 1983. Sektionen ligger för närvarande på campus Johanneberg men det finns en plan ifrån programledningen att flytta programmet och sektionen till campus Lindholmen.
+Datateknologsektionen på Chalmers startades år 1983. Sektionen ligger på campus Johanneberg.
 
 ## Studentliv
 
-På sektionen finns det olika föreningar att vara aktiv inom. Här nedan försöker vi lista de olika föreningarna och vad de håller på med.
+På sektionen finns det olika kommittéer att vara aktiv inom. Här nedan försöker vi lista de olika kommittéerna och vad de håller på med.
 
 ### D-Styret
 
@@ -32,7 +33,7 @@ D6 ser till att sektionen har grymma fester att gå på och att dessa fester har
 
 ### DAG - Datateknologsektionens Arbetsmarknadsgrupp
 
-DAG sköter kontakten mellan företag och studenter. De ser till att sektionens medlemmar får träffa spännade företag samt hjälper till att arrangera [DatE-IT](https://date-it.se/).
+[DAG](https://datateknologer.se/) sköter kontakten mellan företag och studenter. De ser till att sektionens medlemmar får träffa spännade företag samt hjälper till att arrangera [DatE-IT](https://date-it.se/).
 
 ### Delta
 
@@ -44,9 +45,10 @@ Delta är sektionens PR-förening (oklart varför då de mer känns som en HR-f�
 
 ### DNS - Datatekniks Nämnd för Studier
 
-DNS ser till att utbildningen behåller sin världsklass och de bråkar mer än gärna med jobbiga examinatorer åt dig. DNS bjuder gärna på fika när tillfälle ges.
+[DNS](https://dns.dtek.se) ser till att utbildningen behåller sin världsklass och de bråkar mer än gärna med jobbiga examinatorer åt dig. DNS bjuder gärna på fika när tillfälle ges.
 
 ### DRust - Datateknologsektionens Rustmästeri
 
-DRust ser till att du har någonstans att värma din medtagna mat (du är student bara så att du vet va?). De ser även till att sektionens lokal Basen är i bra skick och så att automaterna är laddade med billigt käk/godis/läsk.
+[DRust](https://drust.se) ser till att du har någonstans att värma din medtagna mat (du är student bara så att du vet va?). De ser även till att sektionens lokal Basen är i bra skick och så att automaterna är laddade med billigt käk/godis/läsk.
 
+### TODO skriva klart alla beskrivningar
