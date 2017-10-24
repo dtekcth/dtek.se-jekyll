@@ -2,6 +2,8 @@
 layout: page
 title: About
 permalink: /en/about/
+wip: true
+lang: en
 ---
 
 # About Datateknologsektionen (Computer Engineering student section)

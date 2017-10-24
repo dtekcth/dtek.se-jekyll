@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Om Datateknologsektionen
-permalink: /about/
+title: Om sektionen
+permalink: /om-sektionen/
 wip: true
+lang: sv
 ---
 
 Datateknologsektionen på Chalmers startades år 1983. Sektionen ligger på campus Johanneberg.

@@ -5,11 +5,16 @@ $background-color: #FA6607 !default;
 $background-color-content: #EEEEEE !default;
 
 @import
-  "pure-min"
+  "pure-min",
+  "pure-grids-min",
+  "minima/syntax-highlighting"
 ;
 
 html, body {
     background-color: $background-color;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 .pure-g {
@@ -22,12 +27,109 @@ img {
     max-width: 100%;
 }
 
-.social-media-list, .contact-list {
+.l-box {
+    padding: 1em;
+}
+.walls {
+    padding: 0 1em;
+}
+
+.wip {
+    font-style: italic;
+    font-size: 1.25em;
+}
+
+// Header
+
+.site-title {
+    font-size: 1.25em;
+    padding: 0 1.75em 0 0;
+    text-decoration: none;
+    color: #000;
+}
+
+.site-title:hover, .site-title:focus, .site-title:active {
+    text-decoration: underline;
+}
+
+.nav-trigger {
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    padding: 0.5em;
+}
+
+input.nav-trigger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -100;
+    opacity: 0;
+}
+
+label.nav-trigger {
+    display: block;
+    z-index: 2;
+}
+
+.site-nav:focus-within .trigger {
+    display: block;
+}
+
+.site-nav .nav-trigger .close {
+    display: none;
+}
+.site-nav:focus-within .nav-trigger .close {
+    display: block;
+}
+
+.site-nav .nav-trigger .open {
+    display: block;
+}
+.site-nav:focus-within .nav-trigger .open {
+    display: none;
+}
+
+.site-nav .trigger {
+    display: none;
+    padding: 10px 0;
+    border-bottom: 1px solid #000;
+}
+
+@media screen and (min-width:35.5em) {
+    .site-title {
+        font-size: 2em;
+        padding: 0;
+    }
+    .site-nav .trigger {
+        display: block;
+    }
+    label.nav-trigger {
+        display: none;
+    }
+}
+
+// Footer
+
+.site-footer p {
+    margin: 0;
+}
+
+.social-media-list a {
+    text-decoration: none;
+    color: #000;
+    padding: 1px 0;
+    margin: 1px 0;
+    display: inline-block;
+}
+
+.site-footer .icon {
+    position: relative;
+    top: 2px;
+}
+
+.social-media-list, .contact-list, .sidebar {
     list-style: none;
     margin: 0;
     padding: 0;
-}
-
-.l-box {
-    padding: 1em;
 }

@@ -2,16 +2,23 @@
 layout: default
 ---
 <article class="post pure-u-1">
+  <div class="l-box">
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title | escape }}</h1>
+      {% if page.wip %}
+          <aside class="wip">
+            {% if page.lang == 'sv' %}
+              Denna sida är under konstruktion!
+            {% endif %}
+            {% if page.lang == 'en' %}
+              This page is under construction!
+            {% endif %}
+        </aside>
+      {% endif %}
+    </header>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-    {% if page.wip %}
-        <aside>Denna sida är under konstruktion!</aside>
-    {% endif %}
-  </header>
-
-  <div class="post-content">
-    {{ content }}
+    <div class="post-content">
+      {{ content }}
+    </div>
   </div>
-
 </article>

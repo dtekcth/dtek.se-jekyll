@@ -2,37 +2,48 @@
 layout: default
 ---
 
-<div class="home">
+<div class="home" role="main">
   <div class="pure-u-1">
-    <div class="l-box">
-      <h1 class="page-heading">Posts</h1>
+    <div class="walls">
+      {% if post.lang == 'sv' %}
+        <h1 class="page-heading">Nyheter</h1>
+      {% endif %}
+      {% if post.lang == 'en' %}
+        <h1 class="page-heading">News</h1>
+      {% endif %}
     </div>
   </div>
 
-  <div class="pure-u-1-2">
+  <div class="pure-u-md-1-2 pure-u-1">
     <div class="l-box">
       <ul class="post-list">
         {% for post in site.posts %}
-          <li>
-            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-            <h2>
-              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-            </h2>
-          </li>
+          {% if post.lang == page.lang %}
+            <li>
+              {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+              <span class="post-meta">{{ post.date | date: date_format }}</span>
+              <h2>
+                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+              </h2>
+            </li>
+          {% endif %}
         {% endfor %}
       </ul>
-      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+      {% if post.lang == 'sv' %}
+        <p class="rss-subscribe">Prenumerera <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+      {% endif %}
+      {% if post.lang == 'en' %}
+        <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+      {% endif %}
     </div>
   </div>
 
-  <div class="pure-u-1-2">
+  <div class="pure-u-md-1-2 pure-u-1">
     <div class="l-box">
       <ul class="sidebar">
         {% for advertisements in site.data.advertisements %}
           <li>
-            <img src="{{ advertisements.image }}" />
+            <img src="{{ advertisements.image | relative_url }}" />
             <p>{{ advertisements.teaserSV }}</p>
           </li>
         {% endfor %}
